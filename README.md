@@ -1,5 +1,7 @@
 # famitracker2midi
 
+[![ci](https://github.com/murapixel/famitracker2midi-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/murapixel/famitracker2midi-rs/actions/workflows/ci.yml)
+
 Rust CLI that converts FamiTracker / Dn-FamiTracker text exports into MIDI
 files. Expansion sound chips are detected and mapped automatically from the
 `EXPANSION` header, so N163, VRC6, VRC7, FDS, MMC5 and 5B projects all convert
